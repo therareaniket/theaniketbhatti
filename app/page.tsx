@@ -4,6 +4,7 @@ import { useState } from "react";
 import gsap from "gsap";
 import Preloader from "@/components/Preloader";
 import Hero from "@/components/Homepage/Hero/Hero";
+import GooeyHero from "@/components/Homepage/GooeyHero/GooeyHero";
 
 export default function Home() {
   	const [loading, setLoading] = useState(true);
@@ -19,7 +20,8 @@ export default function Home() {
 
 			{/* 2. Main Website Content */}
 			<div className="website-content min-h-screen flex flex-col justify-center items-center">
-				<Hero />
+				{/* <Hero /> */}
+				<GooeyHero />
 			</div>
 		</main>
 	);
