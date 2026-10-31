@@ -3,8 +3,8 @@
 import { useState } from "react";
 import gsap from "gsap";
 import Preloader from "@/components/Preloader";
-import Hero from "@/components/Homepage/Hero/Hero";
-import GooeyHero from "@/components/Homepage/GooeyHero/GooeyHero";
+import Hero from "@/components/Hero/Hero";
+import GooeyHero from "@/components/GooeyHero/GooeyHero";
 
 export default function Home() {
   	const [loading, setLoading] = useState(true);
