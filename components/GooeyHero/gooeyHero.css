@@ -35,7 +35,9 @@
 
 @media (max-width: 479px) {}
 
-@media (max-width: 439px) {}
+@media (max-width: 439px) {
+    .next-section-btn-home { bottom: auto; top: 40px; }
+}
 
 @media (max-width: 400px) {}
 
